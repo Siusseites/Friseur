@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hair & Care</title>
+  <link rel="stylesheet" href="friseur.css">
+  <script src="friseur.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="container-close">
+        <img class="js-close-button" alt="" src="Images/211651_close_round_icon.svg">
+    </div>
+    <div class="nav">
+      <a class="link-nav" href="#über-uns">Über Uns</a>
+      <a class="link-nav" href="#leistungen">Services</a>
+      <a class="link-nav" href="#kontakt">Kontakt</a>
+    </div>
+  </div>
+  <div class="navbar">
+    <img class="logo js-logo" alt="" src="Images/image-removebg-preview (6).png">
+    <nav>
+      <img class="js-hamburger-button" alt="" src="Images/134216_menu_lines_hamburger_icon.svg"> 
+      <a href="#über-uns">Über Uns</a>
+      <a href="#leistungen">Services</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+  </div>
+  <div class="overlay js-overlay"></div>
+  <div class="hero-section"> 
+    <div class="hero-text-container">
+      <h1>Hair & Care</h1>
+      <p>Willkommen bei Hair and Care. Wir machen aus Ihnen ein neues Ich, bei dem sogar Sie sich fragen werden, wer die Person im Spiegel ist. </p>
+      <button>Jetzt Buchen</button>
+    </div>
+    <div>
+      <img alt="" src="Images/Lucid_Origin_A_woman_with_a_bright_and_warm_smile_fair_skin_an_0.jpg">
+    </div>
+  </div>
+
+  <div class="information-section">
+    <div class="information-text-container">
+      <h2>Öffnungszeiten</h2>
+      <p>Mo: 10-19 Uhr</p>
+      <p>Di: 10-19 Uhr</p>
+      <p>Mi: 10-19 Uhr</p>
+      <p>Do: 10-19 Uhr</p>
+      <p>Fr: 10-19 Uhr</p>
+      <p>Sa: 12-17 Uhr</p>
+      <p>So: Geschlossen</p>
+    </div>
+    <div class="container-salon">
+      <img alt="" src="Images/image.png">
+    </div>
+  </div>
+
+  <div id="über-uns" class="über-uns-section">
+    <h2>Über Uns</h2>
+    <p>Wir sind ein Familienunternehmen seit 1999. Gestartet von meiner Oma sind wir nun schon die 3.Generation von Friseuren, die bei jedem einzelnen Haarschnitt auf das kleinste Detail achten, um unseren Kunden ein Lächeln in Gesicht zu zaubern. WIr sind zwar besonders fokussiert auf Frauen, aber wir schneiden auch Männer.</p>
+  </div>
+  <div id="leistungen" class="service-section">
+    <h2>Services</h2>
+
+    <div class="card">
+      <img alt="" src="Images/pexels-element5-973403.jpg">
+      <h3>Scherenarbeit</h3>
+      <p>80 &#8364;</p>
+    </div>
+
+    <div class="card">
+      <img alt="" src="Images/pexels-polina-tankilevitch-3738341.jpg">
+      <h3>Schneiden und Färben</h3>
+      <p>180 &#8364;</p>
+    </div>
+
+    <div class="card">
+      <img alt="" src="Images/pexels-polina-tankilevitch-3738359.jpg">
+      <h3>Rund um Sorge</h3>
+      <p>Bei unserem Sorglos Paket ist vom Schneiden, Färben bis hin zu Verfpflegung wie Masken alles dabei für nur <span>240 &#8364;</span></p>
+    </div>
+  </div>
+  <div id="kontakt" class="contact-section">
+    <div class="container-contact">
+      <h2>Termin vereinbaren</h2>
+    </div>
+    <div class="container-contact-section">
+      <div class="contact-info">
+        <div class="contact-info-text">
+          <img alt="" src="Images/352510_local_phone_icon.png">
+          <p>+43 567 3546 78</p>
+        </div>
+        <div class="contact-info-text">
+          <img alt="" src="Images/134146_mail_email_icon.png">
+          <p>hair&care@gmail.com</p>
+        </div>
+        <div class="iframe-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172510.49485383168!2d-0.2664036165886249!3d51.52852620311205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C%20Vereinigtes%20K%C3%B6nigreich!5e1!3m2!1sde!2sat!4v1769521527007!5m2!1sde!2sat" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      <div class="form-container">
+        <form>
+          <input id="name" name="name" type="text" placeholder="Dein Name">
+          <input id="email" name="email" type="email" placeholder="Deine Email">
+          <input id="date" name="date" type="datetime-local">
+          <div>
+            <button type="submit">Absenden</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="produkte-section">
+    <h2>Unsere Produkte</h2>
+    <div class="logo-container">
+      <img alt="" src="Images/image-removebg-preview (2).png">
+      <img alt="" src="Images/image-removebg-preview (3).png">
+      <img alt="" src="Images/image-removebg-preview (4).png">
+      <img alt="" src="Images/image-removebg-preview (5).png">
+    </div>
+  </div>
+  <div class="footer">
+     <div>
+      <img class="logo" alt="" src="Images/image-removebg-preview (6).png">
+    </div>
+    <div class="footer-info">
+      <p>Copyright Hair & Care 2025</p>
+      <p>Baumstraße 17 1140</p>
+    </div>
+    <div class="social-icons-container">
+      <img alt="" src="Images/104498_facebook_icon.svg">
+      <img alt="" src="Images/1161953_instagram_icon.svg">
+      <img alt="" src="Images/4747495_linked in_social media_networking_icon.svg">
+    </div>
+  </div>
+</body>
+</html>
